@@ -6,6 +6,17 @@
 // hint.
 
 
+// fn main() {
+//     println!("Hello {}!","world");
+// }
+
+// I AM NOT DONE
+
+// fn main() {
+//     println!("Hello {var}!",var="world");
+// }
+
+
 fn main() {
-    println!("Hello {}!","world");
+    println!("Hello {0}\nHELLO {1}!","world","WORLD");
 }
