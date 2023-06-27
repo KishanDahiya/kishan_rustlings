@@ -10,8 +10,6 @@
 //     println!("Hello {}!","world");
 // }
 
-// I AM NOT DONE
-
 // fn main() {
 //     println!("Hello {var}!",var="world");
 // }
