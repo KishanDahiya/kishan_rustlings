@@ -5,13 +5,16 @@
 //
 // Execute `rustlings hint if2` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
 
+// At first I was very confused but then i just calmed and read the test cases which say 
+// for what keyword they are expecting what returns and modified the clauses
 pub fn foo_if_fizz(fizzish: &str) -> &str {
     if fizzish == "fizz" {
         "foo"
+    } else if fizzish == "fuzz"{
+        "bar"
     } else {
-        1
+        "baz"
     }
 }
 
