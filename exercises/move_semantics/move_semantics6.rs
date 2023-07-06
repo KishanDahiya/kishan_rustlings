@@ -10,8 +10,11 @@
 fn main() {
     let data = "Rust is great!".to_string();
 
+    //so if i am not wrong below is just borrowing and not taking ownership which is a reference(static reference)
     get_char(&data);
-
+    // println!("{}",data);
+    
+    //below is taking the ownership since we sent whole String as parameter/argument
     string_uppercase(data);
 }
 
