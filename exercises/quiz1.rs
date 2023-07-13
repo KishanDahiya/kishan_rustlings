@@ -13,16 +13,14 @@
 //
 // No hints this time ;)
 
-
 // Put your function here!
-fn calculate_price_of_apples(x:u32)->u32 {
-    if(x>40){
-        x*1
-    }else{
-        x*2
+fn calculate_price_of_apples(x: u32) -> u32 {
+    if (x > 40) {
+        x * 1
+    } else {
+        x * 2
     }
 }
-
 
 // Don't modify this function!
 #[test]

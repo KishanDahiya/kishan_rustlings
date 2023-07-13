@@ -5,7 +5,7 @@
 // Execute `rustlings hint primitive_types5` or use the `hint` watch subcommand
 // for a hint.
 
-// This is almost like the naming we can use when printing 
+// This is almost like the naming we can use when printing
 
 fn main() {
     let cat = ("Furry McFurson", 3.5);

@@ -7,7 +7,6 @@
 // Execute `rustlings hint structs3` or use the `hint` watch subcommand for a
 // hint.
 
-
 #[derive(Debug)]
 struct Package {
     sender_country: String,
@@ -20,7 +19,7 @@ impl Package {
     //So this a function named new
     //expected the return type to be a Package type which means inside this we should create a Package and return it
     //But it is already creating a package so we just have to call the function and pass the arguments to it as per test cases
-    //I did not understand anything in this code and solution, like why is that the solution ? 
+    //I did not understand anything in this code and solution, like why is that the solution ?
 
     //Okay after 2 read through the test cases i understood and that we were supposed to implement the logic only not anything else.
     fn new(sender_country: String, recipient_country: String, weight_in_grams: i32) -> Package {
@@ -37,13 +36,12 @@ impl Package {
 
     fn is_international(&self) -> bool {
         // Something goes here...
-        self.sender_country!=self.recipient_country
+        self.sender_country != self.recipient_country
     }
 
     fn get_fees(&self, cents_per_gram: i32) -> i32 {
         // Something goes here...
         self.weight_in_grams * cents_per_gram
-
     }
 }
 

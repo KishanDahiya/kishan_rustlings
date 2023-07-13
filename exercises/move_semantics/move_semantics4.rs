@@ -7,13 +7,9 @@
 // Execute `rustlings hint move_semantics4` or use the `hint` watch subcommand
 // for a hint.
 
-
-
-//This was reasy too compared to the 2nd and 3rd one which are confusing me a lot
-
+// This was reasy too compared to the 2nd and 3rd one which are confusing me a lot
 
 fn main() {
-
     let mut vec1 = fill_vec();
 
     println!("{} has length {} content `{:?}`", "vec1", vec1.len(), vec1);
@@ -25,7 +21,6 @@ fn main() {
 
 // `fill_vec()` no longer takes `vec: Vec<i32>` as argument
 fn fill_vec() -> Vec<i32> {
-    
     let mut vec = Vec::new();
 
     vec.push(22);
