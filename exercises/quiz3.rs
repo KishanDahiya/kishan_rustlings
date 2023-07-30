@@ -16,7 +16,6 @@
 //
 // Execute `rustlings hint quiz3` or use the `hint` watch subcommand for a hint.
 
-
 pub trait Grade {
     fn print_grade(&self) -> String;
 }
@@ -41,8 +40,12 @@ pub struct ReportCard<T: Grade> {
 
 impl<T: Grade> ReportCard<T> {
     pub fn print(&self) -> String {
-        format!("{} ({}) - achieved a grade of {}",
-        &self.student_name,&self.student_age,&self.grade.print_grade())
+        format!(
+            "{} ({}) - achieved a grade of {}",
+            &self.student_name,
+            &self.student_age,
+            &self.grade.print_grade()
+        )
     }
 }
 
