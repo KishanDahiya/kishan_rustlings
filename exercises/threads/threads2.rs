@@ -9,7 +9,7 @@
 
 //I am confused about how is the status_shared and status working throughout in end lines
 
-use std::sync::{Arc,Mutex};
+use std::sync::{Arc, Mutex};
 use std::thread;
 use std::time::Duration;
 
